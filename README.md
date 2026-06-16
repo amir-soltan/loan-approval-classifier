@@ -1,6 +1,9 @@
 # Loan Approval Prediction Model
 
-This repository features a Machine Learning model built to predict whether a loan application will be `Approved` or `Rejected` based on applicant data. 
+This repository features a Machine Learning model built to predict whether a loan application will be `Approved` or `Rejected` based on applicant data.
+
+## Project Workflow & Results
+![Project Workflow and Evaluation](image/workflow-and-results.png)
 
 ## Dataset
 The model utilizes the `loan_approval_dataset.csv` file, which includes details such as education level, employment status, and loan history.
@@ -8,9 +11,9 @@ The model utilizes the `loan_approval_dataset.csv` file, which includes details 
 ## Features & Preprocessing
 - Encoded categorical variables (`self_employed`, `education`, `loan_status`) into binary format.
 - Dropped unique identifiers (`loan_id`) that don't contribute to predictive power.
-- Evaluated models using an 70/30 train-test split.
+- Evaluated the model using a 70/30 train-test split.
 
-## Models Trained
+## Model Trained
 - **Random Forest Classifier**
 
 ## How to Run
