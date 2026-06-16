@@ -3,7 +3,7 @@
 This repository features a Machine Learning model built to predict whether a loan application will be `Approved` or `Rejected` based on applicant data.
 
 ## Project Workflow & Results
-![Project Workflow and Evaluation](image/workflow-and-result.png)
+![Project Workflow and Evaluation](images/workflow-and-result.png)
 
 ## Dataset
 The model utilizes the `loan_approval_dataset.csv` file, which includes details such as education level, employment status, and loan history.
